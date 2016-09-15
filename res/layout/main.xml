@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/navy"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:padding="25dp"
+            android:src="@drawable/sjsulogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Implicit Intents"
+            android:layout_margin="25dp"
+            android:textColor="@color/offwhite"
+            android:textSize="25dp"
+            android:textColorHighlight="@color/offwhite" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/website"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:ems="5">
+    </EditText>
+    <Button
+        android:id="@+id/runWebsite"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Launch" />
+    <EditText
+        android:id="@+id/phNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:ems="5" />
+    <Button
+        android:id="@+id/dialPhNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Ring" />
+</LinearLayout>
